@@ -1,0 +1,1487 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Get the details of credit card user</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Credit card report</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jun 17, 2024 05:34:18 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Credit Card - 4111 1111 1111 1111</p>
+            <p class="text-sm">
+              <span>5:34:22 pm</span> / <span>00:00:00:671</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Credit Card - 4111 1111 1111 1111</h5>
+<span class='badge badge-success'>06.17.2024 5:34:22 pm</span>
+<span class='badge badge-danger'>06.17.2024 5:34:22 pm</span>
+<span class='badge badge-default'>00:00:00:671</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:22 pm</td>
+        <td>
+          API Request: {
+    "name": "Ravi",
+    "data": {
+        "year": 2023,
+        "Credit Card Number": "4111 1111 1111 1111",
+        "Limit": "5000.0",
+        "EXP Date": "2025-06-30",
+        "Card Type": "Visa"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:22 pm</td>
+        <td>
+          API Response: {"name":"Ravi","data":{"year":2023,"Credit Card Number":"4111 1111 1111 1111","Limit":"5000.0","EXP Date":"2025-06-30","Card Type":"Visa"},"id":"694","createdAt":"2024-06-17T12:04:20.454Z"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:22 pm</td>
+        <td>
+          Card Number 4111 1111 1111 1111 is mapped with PAN Number DNSPA123456 in the database.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Credit Card - 4000 1234 5678 9010</p>
+            <p class="text-sm">
+              <span>5:34:24 pm</span> / <span>00:00:00:027</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Credit Card - 4000 1234 5678 9010</h5>
+<span class='badge badge-success'>06.17.2024 5:34:24 pm</span>
+<span class='badge badge-danger'>06.17.2024 5:34:24 pm</span>
+<span class='badge badge-default'>00:00:00:027</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:24 pm</td>
+        <td>
+          API Request: {
+    "name": "Raju",
+    "data": {
+        "year": 2021,
+        "Credit Card Number": "4000 1234 5678 9010",
+        "Limit": "7500.0",
+        "EXP Date": "2024-11-30",
+        "Card Type": "Visa"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:24 pm</td>
+        <td>
+          API Response: {"name":"Raju","data":{"year":2021,"Credit Card Number":"4000 1234 5678 9010","Limit":"7500.0","EXP Date":"2024-11-30","Card Type":"Visa"},"id":"39","createdAt":"2024-06-17T12:04:22.692Z"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:24 pm</td>
+        <td>
+          Card Number 4000 1234 5678 9010 is mapped with PAN Number FREDF123453 in the database.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Credit Card - 4012 8888 8888 1881</p>
+            <p class="text-sm">
+              <span>5:34:24 pm</span> / <span>00:00:00:033</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Credit Card - 4012 8888 8888 1881</h5>
+<span class='badge badge-success'>06.17.2024 5:34:24 pm</span>
+<span class='badge badge-danger'>06.17.2024 5:34:24 pm</span>
+<span class='badge badge-default'>00:00:00:033</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:24 pm</td>
+        <td>
+          API Request: {
+    "name": "Kumar",
+    "data": {
+        "year": 2022,
+        "Credit Card Number": "4012 8888 8888 1881",
+        "Limit": "10000.0",
+        "EXP Date": "2023-09-30",
+        "Card Type": "Visa"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:24 pm</td>
+        <td>
+          API Response: {"name":"Kumar","data":{"year":2022,"Credit Card Number":"4012 8888 8888 1881","Limit":"10000.0","EXP Date":"2023-09-30","Card Type":"Visa"},"id":"388","createdAt":"2024-06-17T12:04:23.233Z"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:24 pm</td>
+        <td>
+          Card Number 4012 8888 8888 1881 is mapped with PAN Number YGHJ1234567 in the database.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Credit Card - 5555 5555 5555 4444</p>
+            <p class="text-sm">
+              <span>5:34:25 pm</span> / <span>00:00:00:023</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Credit Card - 5555 5555 5555 4444</h5>
+<span class='badge badge-success'>06.17.2024 5:34:25 pm</span>
+<span class='badge badge-danger'>06.17.2024 5:34:25 pm</span>
+<span class='badge badge-default'>00:00:00:023</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:25 pm</td>
+        <td>
+          API Request: {
+    "name": "Dinesh",
+    "data": {
+        "year": 2020,
+        "Credit Card Number": "5555 5555 5555 4444",
+        "Limit": "6000.0",
+        "EXP Date": "2025-04-30",
+        "Card Type": "Master"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:25 pm</td>
+        <td>
+          API Response: {"name":"Dinesh","data":{"year":2020,"Credit Card Number":"5555 5555 5555 4444","Limit":"6000.0","EXP Date":"2025-04-30","Card Type":"Master"},"id":"910","createdAt":"2024-06-17T12:04:23.784Z"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:25 pm</td>
+        <td>
+          Card Number 5555 5555 5555 4444 is mapped with PAN Number FTRE2345679 in the database.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Credit Card - 1111 1111 2223 3323</p>
+            <p class="text-sm">
+              <span>5:34:26 pm</span> / <span>00:00:00:025</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Credit Card - 1111 1111 2223 3323</h5>
+<span class='badge badge-success'>06.17.2024 5:34:26 pm</span>
+<span class='badge badge-danger'>06.17.2024 5:34:26 pm</span>
+<span class='badge badge-default'>00:00:00:025</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:26 pm</td>
+        <td>
+          API Request: {
+    "name": "Suresh",
+    "data": {
+        "year": 2019,
+        "Credit Card Number": "1111 1111 2223 3323",
+        "Limit": "4000.0",
+        "EXP Date": "2024-02-28",
+        "Card Type": "Master"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:26 pm</td>
+        <td>
+          API Response: {"name":"Suresh","data":{"year":2019,"Credit Card Number":"1111 1111 2223 3323","Limit":"4000.0","EXP Date":"2024-02-28","Card Type":"Master"},"id":"579","createdAt":"2024-06-17T12:04:25.165Z"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:26 pm</td>
+        <td>
+          Card Number 1111 1111 2223 3323 is mapped with PAN Number ERTY3456790 in the database.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Credit Card - 7898 4532 1234 5465</p>
+            <p class="text-sm">
+              <span>5:34:27 pm</span> / <span>00:00:00:026</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Credit Card - 7898 4532 1234 5465</h5>
+<span class='badge badge-success'>06.17.2024 5:34:27 pm</span>
+<span class='badge badge-danger'>06.17.2024 5:34:27 pm</span>
+<span class='badge badge-default'>00:00:00:026</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:27 pm</td>
+        <td>
+          API Request: {
+    "name": "Kishore",
+    "data": {
+        "year": 2021,
+        "Credit Card Number": "7898 4532 1234 5465",
+        "Limit": "3000.0",
+        "EXP Date": "2023-12-31",
+        "Card Type": "Master"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:27 pm</td>
+        <td>
+          API Response: {"name":"Kishore","data":{"year":2021,"Credit Card Number":"7898 4532 1234 5465","Limit":"3000.0","EXP Date":"2023-12-31","Card Type":"Master"},"id":"707","createdAt":"2024-06-17T12:04:25.776Z"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:27 pm</td>
+        <td>
+          Card Number 7898 4532 1234 5465 is mapped with PAN Number HGFR4567901 in the database.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Credit Card - 5645 3423 3456 5678</p>
+            <p class="text-sm">
+              <span>5:34:27 pm</span> / <span>00:00:00:026</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Credit Card - 5645 3423 3456 5678</h5>
+<span class='badge badge-success'>06.17.2024 5:34:27 pm</span>
+<span class='badge badge-danger'>06.17.2024 5:34:27 pm</span>
+<span class='badge badge-default'>00:00:00:026</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:27 pm</td>
+        <td>
+          API Request: {
+    "name": "Geeta",
+    "data": {
+        "year": 2022,
+        "Credit Card Number": "5645 3423 3456 5678",
+        "Limit": "5000.0",
+        "EXP Date": "2026-08-31",
+        "Card Type": "Master"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:27 pm</td>
+        <td>
+          API Response: {"name":"Geeta","data":{"year":2022,"Credit Card Number":"5645 3423 3456 5678","Limit":"5000.0","EXP Date":"2026-08-31","Card Type":"Master"},"id":"790","createdAt":"2024-06-17T12:04:26.272Z"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:27 pm</td>
+        <td>
+          Card Number 5645 3423 3456 5678 is mapped with PAN Number RRRT0679012 in the database.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Credit Card - 1234 5324 4567 7890</p>
+            <p class="text-sm">
+              <span>5:34:28 pm</span> / <span>00:00:00:027</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Credit Card - 1234 5324 4567 7890</h5>
+<span class='badge badge-success'>06.17.2024 5:34:28 pm</span>
+<span class='badge badge-danger'>06.17.2024 5:34:28 pm</span>
+<span class='badge badge-default'>00:00:00:027</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:28 pm</td>
+        <td>
+          API Request: {
+    "name": "Henry",
+    "data": {
+        "year": 2023,
+        "Credit Card Number": "1234 5324 4567 7890",
+        "Limit": "8500.0",
+        "EXP Date": "2025-10-31",
+        "Card Type": "Visa"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:28 pm</td>
+        <td>
+          API Response: {"name":"Henry","data":{"year":2023,"Credit Card Number":"1234 5324 4567 7890","Limit":"8500.0","EXP Date":"2025-10-31","Card Type":"Visa"},"id":"558","createdAt":"2024-06-17T12:04:26.817Z"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:28 pm</td>
+        <td>
+          Card Number 1234 5324 4567 7890 is mapped with PAN Number KJHG9790123 in the database.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Credit Card - 2345 4567 4321 1234</p>
+            <p class="text-sm">
+              <span>5:34:29 pm</span> / <span>00:00:00:022</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Credit Card - 2345 4567 4321 1234</h5>
+<span class='badge badge-success'>06.17.2024 5:34:29 pm</span>
+<span class='badge badge-danger'>06.17.2024 5:34:29 pm</span>
+<span class='badge badge-default'>00:00:00:022</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:29 pm</td>
+        <td>
+          API Request: {
+    "name": "Mohit",
+    "data": {
+        "year": 2020,
+        "Credit Card Number": "2345 4567 4321 1234",
+        "Limit": "9000.0",
+        "EXP Date": "2024-06-30",
+        "Card Type": "Visa"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:29 pm</td>
+        <td>
+          API Response: {"name":"Mohit","data":{"year":2020,"Credit Card Number":"2345 4567 4321 1234","Limit":"9000.0","EXP Date":"2024-06-30","Card Type":"Visa"},"id":"53","createdAt":"2024-06-17T12:04:27.396Z"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:29 pm</td>
+        <td>
+          Card Number 2345 4567 4321 1234 is mapped with PAN Number NBGH7901234 in the database.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Credit Card - 8900 9008 7876 5432</p>
+            <p class="text-sm">
+              <span>5:34:29 pm</span> / <span>00:00:00:023</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Credit Card - 8900 9008 7876 5432</h5>
+<span class='badge badge-success'>06.17.2024 5:34:29 pm</span>
+<span class='badge badge-danger'>06.17.2024 5:34:29 pm</span>
+<span class='badge badge-default'>00:00:00:023</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:29 pm</td>
+        <td>
+          API Request: {
+    "name": "Preetham",
+    "data": {
+        "year": 2022,
+        "Credit Card Number": "8900 9008 7876 5432",
+        "Limit": "11000.0",
+        "EXP Date": "2023-11-30",
+        "Card Type": "Visa"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:29 pm</td>
+        <td>
+          API Response: {"name":"Preetham","data":{"year":2022,"Credit Card Number":"8900 9008 7876 5432","Limit":"11000.0","EXP Date":"2023-11-30","Card Type":"Visa"},"id":"843","createdAt":"2024-06-17T12:04:27.959Z"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:29 pm</td>
+        <td>
+          Card Number 8900 9008 7876 5432 is mapped with PAN Number HRTY8012345 in the database.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Credit Card - 1234 4567 7654 3452</p>
+            <p class="text-sm">
+              <span>5:34:30 pm</span> / <span>00:00:00:030</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Credit Card - 1234 4567 7654 3452</h5>
+<span class='badge badge-success'>06.17.2024 5:34:30 pm</span>
+<span class='badge badge-danger'>06.17.2024 5:34:30 pm</span>
+<span class='badge badge-default'>00:00:00:030</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:30 pm</td>
+        <td>
+          API Request: {
+    "name": "Suma",
+    "data": {
+        "year": 2023,
+        "Credit Card Number": "1234 4567 7654 3452",
+        "Limit": "7000.0",
+        "EXP Date": "2025-07-31",
+        "Card Type": "Visa"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:30 pm</td>
+        <td>
+          API Response: {"name":"Suma","data":{"year":2023,"Credit Card Number":"1234 4567 7654 3452","Limit":"7000.0","EXP Date":"2025-07-31","Card Type":"Visa"},"id":"526","createdAt":"2024-06-17T12:04:28.441Z"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:30 pm</td>
+        <td>
+          Card Number 1234 4567 7654 3452 is mapped with PAN Number ERTY7543210 in the database.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="12"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Credit Card - 2345 5678 8900 0098</p>
+            <p class="text-sm">
+              <span>5:34:30 pm</span> / <span>00:00:00:020</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Credit Card - 2345 5678 8900 0098</h5>
+<span class='badge badge-success'>06.17.2024 5:34:30 pm</span>
+<span class='badge badge-danger'>06.17.2024 5:34:30 pm</span>
+<span class='badge badge-default'>00:00:00:020</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:30 pm</td>
+        <td>
+          API Request: {
+    "name": "Pavithra",
+    "data": {
+        "year": 2023,
+        "Credit Card Number": "2345 5678 8900 0098",
+        "Limit": "9500.0",
+        "EXP Date": "2025-05-31",
+        "Card Type": "Master"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:30 pm</td>
+        <td>
+          API Response: {"name":"Pavithra","data":{"year":2023,"Credit Card Number":"2345 5678 8900 0098","Limit":"9500.0","EXP Date":"2025-05-31","Card Type":"Master"},"id":"944","createdAt":"2024-06-17T12:04:28.932Z"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:30 pm</td>
+        <td>
+          Card Number 2345 5678 8900 0098 is mapped with PAN Number TGFR7654321 in the database.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="13"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Credit Card - 2344 0009 8800 7890</p>
+            <p class="text-sm">
+              <span>5:34:31 pm</span> / <span>00:00:00:022</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Credit Card - 2344 0009 8800 7890</h5>
+<span class='badge badge-success'>06.17.2024 5:34:31 pm</span>
+<span class='badge badge-danger'>06.17.2024 5:34:31 pm</span>
+<span class='badge badge-default'>00:00:00:022</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:31 pm</td>
+        <td>
+          API Request: {
+    "name": "Meera",
+    "data": {
+        "year": 2019,
+        "Credit Card Number": "2344 0009 8800 7890",
+        "Limit": "5500.0",
+        "EXP Date": "2024-03-31",
+        "Card Type": "Master"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:31 pm</td>
+        <td>
+          API Response: {"name":"Meera","data":{"year":2019,"Credit Card Number":"2344 0009 8800 7890","Limit":"5500.0","EXP Date":"2024-03-31","Card Type":"Master"},"id":"507","createdAt":"2024-06-17T12:04:29.448Z"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:31 pm</td>
+        <td>
+          Card Number 2344 0009 8800 7890 is mapped with PAN Number HRTY9875432 in the database.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="14"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Credit Card - 2900 9008 8009 9007</p>
+            <p class="text-sm">
+              <span>5:34:31 pm</span> / <span>00:00:00:023</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Credit Card - 2900 9008 8009 9007</h5>
+<span class='badge badge-success'>06.17.2024 5:34:31 pm</span>
+<span class='badge badge-danger'>06.17.2024 5:34:31 pm</span>
+<span class='badge badge-default'>00:00:00:023</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:31 pm</td>
+        <td>
+          API Request: {
+    "name": "Nayana",
+    "data": {
+        "year": 2020,
+        "Credit Card Number": "2900 9008 8009 9007",
+        "Limit": "8000.0",
+        "EXP Date": "2025-09-30",
+        "Card Type": "Master"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:31 pm</td>
+        <td>
+          API Response: {"name":"Nayana","data":{"year":2020,"Credit Card Number":"2900 9008 8009 9007","Limit":"8000.0","EXP Date":"2025-09-30","Card Type":"Master"},"id":"864","createdAt":"2024-06-17T12:04:30.038Z"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:31 pm</td>
+        <td>
+          Card Number 2900 9008 8009 9007 is mapped with PAN Number WERT0987543 in the database.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="15"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Credit Card - 9999 8456 6789 2345</p>
+            <p class="text-sm">
+              <span>5:34:32 pm</span> / <span>00:00:00:022</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Credit Card - 9999 8456 6789 2345</h5>
+<span class='badge badge-success'>06.17.2024 5:34:32 pm</span>
+<span class='badge badge-danger'>06.17.2024 5:34:32 pm</span>
+<span class='badge badge-default'>00:00:00:022</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:32 pm</td>
+        <td>
+          API Request: {
+    "name": "Keerthan",
+    "data": {
+        "year": 2022,
+        "Credit Card Number": "9999 8456 6789 2345",
+        "Limit": "12000.0",
+        "EXP Date": "2024-11-30",
+        "Card Type": "Master"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:32 pm</td>
+        <td>
+          API Response: {"name":"Keerthan","data":{"year":2022,"Credit Card Number":"9999 8456 6789 2345","Limit":"12000.0","EXP Date":"2024-11-30","Card Type":"Master"},"id":"448","createdAt":"2024-06-17T12:04:30.659Z"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:32 pm</td>
+        <td>
+          Card Number 9999 8456 6789 2345 is mapped with PAN Number BGRF1097654 in the database.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="16"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Credit Card - 2345 5678 8900 0098</p>
+            <p class="text-sm">
+              <span>5:34:32 pm</span> / <span>00:00:00:022</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Credit Card - 2345 5678 8900 0098</h5>
+<span class='badge badge-success'>06.17.2024 5:34:32 pm</span>
+<span class='badge badge-danger'>06.17.2024 5:34:32 pm</span>
+<span class='badge badge-default'>00:00:00:022</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:32 pm</td>
+        <td>
+          API Request: {
+    "name": "Pavithra",
+    "data": {
+        "year": 2023,
+        "Credit Card Number": "2345 5678 8900 0098",
+        "Limit": "9500.0",
+        "EXP Date": "2025-05-31",
+        "Card Type": "Master"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:32 pm</td>
+        <td>
+          API Response: {"name":"Pavithra","data":{"year":2023,"Credit Card Number":"2345 5678 8900 0098","Limit":"9500.0","EXP Date":"2025-05-31","Card Type":"Master"},"id":"427","createdAt":"2024-06-17T12:04:31.149Z"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:32 pm</td>
+        <td>
+          Card Number 2345 5678 8900 0098 is mapped with PAN Number TGFR7654321 in the database.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="17"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Credit Card - 1234 4324 3456 6543</p>
+            <p class="text-sm">
+              <span>5:34:33 pm</span> / <span>00:00:00:024</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Credit Card - 1234 4324 3456 6543</h5>
+<span class='badge badge-success'>06.17.2024 5:34:33 pm</span>
+<span class='badge badge-danger'>06.17.2024 5:34:33 pm</span>
+<span class='badge badge-default'>00:00:00:024</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:33 pm</td>
+        <td>
+          API Request: {
+    "name": "Heet",
+    "data": {
+        "year": 2021,
+        "Credit Card Number": "1234 4324 3456 6543",
+        "Limit": "13000.0",
+        "EXP Date": "2024-12-31",
+        "Card Type": "Master"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:33 pm</td>
+        <td>
+          API Response: {"name":"Heet","data":{"year":2021,"Credit Card Number":"1234 4324 3456 6543","Limit":"13000.0","EXP Date":"2024-12-31","Card Type":"Master"},"id":"683","createdAt":"2024-06-17T12:04:31.794Z"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:33 pm</td>
+        <td>
+          Card Number 1234 4324 3456 6543 is mapped with PAN Number KJUI3109876 in the database.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="18"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Credit Card - 1233 3334 3334 3344</p>
+            <p class="text-sm">
+              <span>5:34:33 pm</span> / <span>00:00:00:022</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Credit Card - 1233 3334 3334 3344</h5>
+<span class='badge badge-success'>06.17.2024 5:34:33 pm</span>
+<span class='badge badge-danger'>06.17.2024 5:34:33 pm</span>
+<span class='badge badge-default'>00:00:00:022</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:33 pm</td>
+        <td>
+          API Request: {
+    "name": "Abishek",
+    "data": {
+        "year": 2020,
+        "Credit Card Number": "1233 3334 3334 3344",
+        "Limit": "7000.0",
+        "EXP Date": "2025-04-30",
+        "Card Type": "Visa"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:33 pm</td>
+        <td>
+          API Response: {"name":"Abishek","data":{"year":2020,"Credit Card Number":"1233 3334 3334 3344","Limit":"7000.0","EXP Date":"2025-04-30","Card Type":"Visa"},"id":"764","createdAt":"2024-06-17T12:04:32.308Z"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:33 pm</td>
+        <td>
+          Card Number 1233 3334 3334 3344 is mapped with PAN Number WERS4310987 in the database.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="19"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Credit Card - 2344 4445 4444 4444</p>
+            <p class="text-sm">
+              <span>5:34:34 pm</span> / <span>00:00:00:022</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Credit Card - 2344 4445 4444 4444</h5>
+<span class='badge badge-success'>06.17.2024 5:34:34 pm</span>
+<span class='badge badge-danger'>06.17.2024 5:34:34 pm</span>
+<span class='badge badge-default'>00:00:00:022</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:34 pm</td>
+        <td>
+          API Request: {
+    "name": "Wilson",
+    "data": {
+        "year": 2022,
+        "Credit Card Number": "2344 4445 4444 4444",
+        "Limit": "8500.0",
+        "EXP Date": "2023-10-31",
+        "Card Type": "Visa"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:34 pm</td>
+        <td>
+          API Response: {"name":"Wilson","data":{"year":2022,"Credit Card Number":"2344 4445 4444 4444","Limit":"8500.0","EXP Date":"2023-10-31","Card Type":"Visa"},"id":"191","createdAt":"2024-06-17T12:04:32.807Z"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:34 pm</td>
+        <td>
+          Card Number 2344 4445 4444 4444 is mapped with PAN Number NFRT5321098 in the database.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="20"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Credit Card - 2344 3344 6666 7777</p>
+            <p class="text-sm">
+              <span>5:34:34 pm</span> / <span>00:00:00:039</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Credit Card - 2344 3344 6666 7777</h5>
+<span class='badge badge-success'>06.17.2024 5:34:34 pm</span>
+<span class='badge badge-danger'>06.17.2024 5:34:34 pm</span>
+<span class='badge badge-default'>00:00:00:039</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:34 pm</td>
+        <td>
+          API Request: {
+    "name": "Tina",
+    "data": {
+        "year": 2019,
+        "Credit Card Number": "2344 3344 6666 7777",
+        "Limit": "6000.0",
+        "EXP Date": "2024-02-28",
+        "Card Type": "Visa"
+    }
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:34 pm</td>
+        <td>
+          API Response: {"name":"Tina","data":{"year":2019,"Credit Card Number":"2344 3344 6666 7777","Limit":"6000.0","EXP Date":"2024-02-28","Card Type":"Visa"},"id":"910","createdAt":"2024-06-17T12:04:33.291Z"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:34:34 pm</td>
+        <td>
+          Card Number 2344 3344 6666 7777 is mapped with PAN Number WQSD6532109 in the database.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jun 17, 2024 05:34:18 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jun 17, 2024 05:34:34 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>20</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>20</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'><b>0</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>60</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Credit Card - 4111 1111 1111 1111":0.671,"Credit Card - 4000 1234 5678 9010":0.027,"Credit Card - 4012 8888 8888 1881":0.033,"Credit Card - 5555 5555 5555 4444":0.023,"Credit Card - 1111 1111 2223 3323":0.025,"Credit Card - 7898 4532 1234 5465":0.026,"Credit Card - 5645 3423 3456 5678":0.026,"Credit Card - 1234 5324 4567 7890":0.027,"Credit Card - 2345 4567 4321 1234":0.022,"Credit Card - 8900 9008 7876 5432":0.023,"Credit Card - 1234 4567 7654 3452":0.03,"Credit Card - 2345 5678 8900 0098":0.02,"Credit Card - 2344 0009 8800 7890":0.022,"Credit Card - 2900 9008 8009 9007":0.023,"Credit Card - 9999 8456 6789 2345":0.022,"Credit Card - 2345 5678 8900 0098":0.022,"Credit Card - 1234 4324 3456 6543":0.024,"Credit Card - 1233 3334 3334 3344":0.022,"Credit Card - 2344 4445 4444 4444":0.022,"Credit Card - 2344 3344 6666 7777":0.039
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>OS</td>
+<td>Windows 10</td>
+</tr>
+<tr>
+<td>Build Tester</td>
+<td>Veena N</td>
+</tr>
+<tr>
+<td>Environment Name</td>
+<td>QA</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 20,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 0,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 60
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
